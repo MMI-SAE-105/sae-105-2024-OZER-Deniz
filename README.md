@@ -3,7 +3,7 @@
 
 À compléter :
 
-- NOM :
+- NOM : 
 - PRÉNOM :
 - GROUPE :
 - URL du site :
