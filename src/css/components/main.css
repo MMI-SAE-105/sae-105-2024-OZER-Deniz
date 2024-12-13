@@ -17,7 +17,7 @@
 .main-banner h1,
 .main-banner h2,
 .main-banner p,
-.main-banner .cta {
+.main-banner {
     position: relative;
     z-index: 1;
 }
@@ -33,7 +33,7 @@
     z-index: 0;
 }
 
-.main-banner .cta a {
+/*.main-banner .cta a {
     color: black;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -41,7 +41,7 @@
     text-decoration: none;
     margin-top: 20px;
 
-}
+}*/
 
 .main-banner .intro-box {
     position: relative;
@@ -85,11 +85,10 @@
     margin-left: 2px;
 }
 
-.main-banner .intro-box-cta {
+.main-banner .intro-box-cta a {
     display: inline-block;
-    margin-top: 20px;
-    color: white;
-    padding: 10px 20px;
+
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -98,4 +97,8 @@
 
 .main-banner .intro-box-cta:hover {
     background-color: #e39b00;
+}
+
+.cta {
+    text-decoration: none;
 }

@@ -4,6 +4,9 @@
 @import "/src/css/components/orange-bar.css";
 @import "/src/css/components/menu.css";
 @import "/src/css/components/no-scroll.css";
-@import "/src/css/component;s/body.css";
+@import "/src/css/components/body.css";
+@import "/src/css/components/button.css";
+@import "/src/css/components/text.css";
+@import "/src/css/components/footer.css";
 
 @import "/src/css/vendors/normalize.css";
