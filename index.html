@@ -15,13 +15,35 @@
     <link rel="manifest" href="favicon/site.webmanifest" />
 </head>
 
-<body class="html">
+<body class="html no-scroll">
+
+
+
     <header class="header">
-        <img src="assets/icone/logo.svg" alt="Logo">
-        <div>
-            <button class="menu-btn">☰</button>
+        <a href="index.html"><img src="assets/icone/logo.svg" alt="Logo"></a>
+        <div class="menu-btn">
+            ☰
         </div>
     </header>
+
+    <div class="overlay-menu">
+        <div class="menu-header">
+            <img src="assets/icone/logo.svg" alt="Logo">
+            <span class="close-btn">&times;</span>
+        </div>
+        <nav>
+            <ul class="ul">
+                <li class="li"><a href="agenda.html"> • Agenda</a></li>
+                <li class="li"><a href="reservation.html"> • Réservation</a></li>
+                <li class="li"><a href="localisation.html"> • Localisation</a></li>
+                <li class="li"><a href="contacts.html"> • Contacts</a></li>
+                <li class="li"><a href="apropos.html"> • À propos</a></li>
+                <li class="li"><a href="newsletter.html"> • Newsletter</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="/src/js/menu.js"></script>
 
     <section class="main-banner">
         <div>
@@ -36,7 +58,11 @@
         <button class="intro-box intro-box-cta cta">
             <a href="reservation.hmtl">RÉSERVER MAINTENANT VOTRE PLACE À 0 EURO</a>
         </button>
-        <p class="intro-box intro-box-loc">Parc de la Douce à Belfort</p>
+        <div>
+            <p class="intro-box intro-box-loc">Parc de la Douce à Belfort
+                <img class="gps" src="/assets/icone/gps.svg" alt="">
+            </p>
+        </div>
     </section>
 
     <div class="orange-bar orange-bar-1"></div>

@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
 
@@ -19,4 +20,7 @@
 .header .menu-btn {
     font-size: 24px;
     cursor: pointer;
+    margin-right: 30px;
+    z-index: 20;
+    display: block;
 }
