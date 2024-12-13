@@ -1,1 +1,7 @@
-@import "/src/css/components/header.css"
+@import "/src/css/components/html.css";
+@import "/src/css/components/header.css";
+@import "/src/css/components/menu-btn.css";
+@import "/src/css/components/main.css";
+@import "/src/css/components/orange-bar.css";
+
+@import "/src/css/vendors/normalize.css";
