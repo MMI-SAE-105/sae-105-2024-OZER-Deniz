@@ -15,6 +15,10 @@
     margin-bottom: 30px;
 }
 
+.cta:hover {
+    border: 8px solid #ffb106;
+}
+
 .cta a {
     display: inline;
     text-decoration: none;
