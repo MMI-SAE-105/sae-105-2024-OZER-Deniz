@@ -30,3 +30,23 @@
     margin-right: 20px;
     margin-bottom: 40px;
 }
+
+.title-4 {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #333;
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-intro-4 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}

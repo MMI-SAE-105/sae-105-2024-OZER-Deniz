@@ -21,3 +21,4 @@ document.addEventListener('click', (event) => {
         body.classList.remove('no-scroll');
     }
 });
+
