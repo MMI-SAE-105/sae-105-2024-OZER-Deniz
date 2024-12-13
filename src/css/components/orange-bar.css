@@ -5,10 +5,27 @@
 }
 
 .orange-bar-1 {
+    width: 60%;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin: 20px 0 20px auto;
 }
 
 .orange-bar-2 {
+    width: 40%;
     margin-bottom: 20px;
+    margin: 20px 0 20px auto;
+}
+
+.orange-bar-1-2 {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin: 20px auto 20px 0;
+}
+
+.orange-bar-2-2 {
+    width: 40%;
+    margin-bottom: 20px;
+    margin: 20px auto 20px 0;
 }

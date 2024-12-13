@@ -3,6 +3,8 @@ const overlayMenu = document.querySelector('.overlay-menu');
 const closeBtn = document.querySelector('.close-btn');
 const body = document.body;
 
+body.classList.remove('no-scroll')
+
 menuBtn.addEventListener('click', () => {
     overlayMenu.classList.add('active');
     body.classList.add('no-scroll');
